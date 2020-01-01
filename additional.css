@@ -6,6 +6,9 @@
 	width: 400px;
 	height: 100px;
 }
-a{
-	text-decoration: none;
+a {
+	text-decoration: none !important;
+}
+.mb-2 {
+	margin-bottom: 2em;
 }
