@@ -4874,17 +4874,28 @@ h5 a:hover {
 h5 small {
 	font-size: 1em;
 }
-.social-round-icon, .stockist {
+.social-round-icon{
 	border: 1px solid #838383;
 	border-radius: 50px;
 	-webkit-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
-.social-round-icon:hover, .stockist:hover {
+.stockist{
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.social-round-icon:hover{
 	background-color: #0db14b;
 	color: #fff;
 	border-color: #0db14b;
+}
+.stockist:hover {
+	background-color: #0db14b;
+}
+.stockist:hover h5{
+ color:#fff;
 }
 .social-round-icon.white-round-icon {
 	border: 1px solid #fff;
