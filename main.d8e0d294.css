@@ -4703,11 +4703,11 @@ button.close {
 	}
 }
 body {
-	background-image: -webkit-linear-gradient(top, #0db14b, #ff6975);
-	background-image: -o-linear-gradient(top, #0db14b 0, #ff6975 100%);
-	background-image: linear-gradient(180deg, #0db14b 0, #ff6975);
+	background-image: -webkit-linear-gradient(top, #0db14b, #f7797d);
+	background-image: -o-linear-gradient(top, #0db14b 0, #f7797d 100%);
+	background-image: linear-gradient(180deg, #0db14b 0, #f7797d);
 	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF0db14b",endColorstr="#FFFF6975",GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF0db14b",endColorstr="#FFf7797d",GradientType=0);
 }
 body.white {
 	background-color: #fff;
